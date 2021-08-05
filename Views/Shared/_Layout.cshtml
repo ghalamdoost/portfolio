@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Portfolio</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Container -->
+    <section id="container">
+        <!-- Header -->
+        @Html.Partial("~/Views/Partial/_Header.cshtml")
+        <!-- /Header -->
+        <!-- Content -->
+        <section id="content">
+            @RenderBody()
+        </section>
+        <!-- /Content -->
+        @*<div class="clear"></div>*@
+        <!-- Footer -->
+        <footer>
+            <div class="copyright">Copyright © Shahab Ghalamdoost</div>
+        </footer>
+        <!-- /Footer -->
+    </section>
+    <!-- /Container -->
+    @*@Scripts.Render("~/bundles/jquery")*@
+
+
+    <script src="~/lib/jqry/jquery.min.js"></script>
+    <script src="~/lib/jqry/jquery.carouFredSel.js"></script>
+    <script src="~/lib/jqry/jquery.easytabs.min.js"></script>
+    <script src="~/lib/jqry/jquery.isotope.min.js"></script>
+    <script src="~/lib/jqry/jquery.prettyPhoto.js"></script>
+    <script src="~/lib/jqry/plugins.js"></script>
+    <script src="~/lib/jqry/respond.min.js"></script>    
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/custom.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
