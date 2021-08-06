@@ -112,5 +112,4 @@ D:\Work\ghalamdoost\Portfolio\obj\Release\netcoreapp3.1\staticwebassets\Portfoli
 D:\Work\ghalamdoost\Portfolio\obj\Release\netcoreapp3.1\Portfolio.dll
 D:\Work\ghalamdoost\Portfolio\obj\Release\netcoreapp3.1\Portfolio.pdb
 D:\Work\ghalamdoost\Portfolio\obj\Release\netcoreapp3.1\Portfolio.genruntimeconfig.cache
-D:\Work\ghalamdoost\Portfolio\obj\Release\netcoreapp3.1\Portfolio.csprojAssemblyReference.cache
 D:\Work\ghalamdoost\Portfolio\bin\Release\netcoreapp3.1\aws-beanstalk-tools-defaults.json

@@ -1,77 +1,6 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-/*a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}*/
-
-/* Provide sufficient contrast against white background */
-/*a {
-  color: #0366d6;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}*/
-
-/* Sticky footer styles
--------------------------------------------------- */
-/*html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}*/
-
-/* Sticky footer styles
--------------------------------------------------- */
-/*html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {*/
-  /* Margin bottom by footer height */
-  /*margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;*/ /* Vertically center the text there */
-/*}*/
-
-
-
 
 /*-------------------------------------------------------*/
 /* Base styles	 */
@@ -84,8 +13,8 @@ body {
     background-color: #E8E8E8;
     margin: 0px;
     padding: 0px;
-    font-family: 'open Sans', Arial;
-    font-size: 12px;
+    font-family: 'GFS Didot', serif;
+    /*font-size: 14px;*/
 }
 
 /* Font face */
@@ -106,6 +35,7 @@ body {
 }
 
 #content {
+    margin-top:1em;
     background-color: #FFF;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
@@ -145,7 +75,7 @@ body {
 }
 
 .extra-text {
-    font-size: 20px;
+    /*font-size: 20px;*/
     padding: 24px 0;
     border-bottom: 1px solid #ededed;
     color: #999;
@@ -172,7 +102,7 @@ body {
 /*-------------------------------------------------------*/
 /* Typography */
 /*-------------------------------------------------------*/
-h1 {
+/*h1 {
     font-size: 31px;
 }
 
@@ -194,7 +124,7 @@ h5 {
 
 h6 {
     font-size: 12px;
-}
+}*/
 
 strong {
     font-weight: bold;
@@ -207,7 +137,7 @@ h3.main-heading {
     padding-bottom: 14px;
     color: #333;
     line-height: 16px;
-    font-size: 16px;
+    /*font-size: 16px;*/
     font-weight: 600;
     display: block;
     clear: both;
@@ -240,7 +170,7 @@ header {
 }
 
     #logo h2 {
-        font-size: 30px;
+        /*font-size: 30px;*/
         font-weight: 900;
         color: #444;
         line-height: 40px;
@@ -268,7 +198,7 @@ header {
 
         .socialicons li a {
             font-family: 'icomoon';
-            font-size: 16px;
+            /*font-size: 16px;*/
             display: block;
             padding: 6px 8px;
             background-color: #222;
@@ -331,13 +261,13 @@ header {
 
     .about h3 {
         margin-top: 5px;
-        font-size: 18px;
+        /*font-size: 18px;*/
         color: #FFF;
         line-height: 18px;
     }
 
     .about p {
-        font-size: 14px;
+        /*font-size: 14px;*/
         margin-top: 15px;
         color: /*profileTextColor*/ #a87f09;
         font-weight: 400;
@@ -355,7 +285,7 @@ header {
 }
 
     .personal-info li {
-        font-size: 14px;
+        /*font-size: 14px;*/
         margin-bottom: 10px;
         overflow: hidden;
     }
@@ -432,7 +362,7 @@ header {
 
 .next, .prev {
     font-family: 'icomoon';
-    font-size: 34px;
+    /*font-size: 34px;*/
     color: #eee;
     position: absolute;
     top: 30px;
@@ -484,7 +414,7 @@ header {
             line-height: 17px;
             margin-left: 0px;
             color: #444;
-            font-size: 13px;
+            /*font-size: 13px;*/
             border-left: 1px solid /*mainColor*/ #fdc750;
             padding-left: 15px;
         }
@@ -492,7 +422,7 @@ header {
             .timeline li .timelineUnit .timelineDate {
                 line-height: 17px;
                 color: /*mainColor*/ #fdc750;
-                font-size: 14px;
+                /*font-size: 14px;*/
                 margin-left: 10px;
                 font-weight: normal;
                 padding: 2px 6px;
@@ -501,19 +431,19 @@ header {
 
             .timeline li .timelineUnit h4 {
                 line-height: 24px;
-                font-size: 15px;
+                /*font-size: 15px;*/
                 color: #444;
             }
 
             .timeline li .timelineUnit h5 {
                 line-height: 18px;
-                font-size: 13px;
+                /*font-size: 13px;*/
                 color: #999;
             }
 
             .timeline li .timelineUnit p {
                 color: #666;
-                font-size: 12px;
+                /*font-size: 12px;*/
                 margin-top: 5px;
             }
 
@@ -536,7 +466,7 @@ header {
         .skills li h4 {
             width: 140px;
             float: left;
-            font-size: 15px;
+            /*font-size: 15px;*/
             color: #444;
         }
 
@@ -566,7 +496,7 @@ header {
     padding: 10px;
     background-color: #8c8c8c;
     overflow: hidden;
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-weight: 300;
     line-height: 20px;
     margin: 20px 0px 0px -20px;
@@ -621,14 +551,14 @@ header {
     }
 
     #portfolio-list li .title {
-        font-size: 14px;
+        /*font-size: 14px;*/
         margin-top: 15px;
         font-weight: 400;
         color: #3A3A3A;
     }
 
     #portfolio-list li .categorie {
-        font-size: 11px;
+        /*font-size: 11px;*/
         line-height: 25px;
         color: #999;
     }
@@ -725,7 +655,7 @@ header {
     .blog-entry h3 {
         clear: both;
         padding: 20px 15px 15px 15px;
-        font-size: 17px;
+        /*font-size: 17px;*/
         line-height: 18px;
         font-weight: 700;
         color: #3A3A3A;
@@ -750,7 +680,7 @@ header {
     }
 
         .blog-entry .entry-date .day {
-            font-size: 32px;
+            /*font-size: 32px;*/
             font-weight: bold;
             display: block;
             float: left;
@@ -761,7 +691,7 @@ header {
 
         .blog-entry .entry-date .month-year {
             padding: 0 0 0 7px;
-            font-size: 12px;
+            /*font-size: 12px;*/
             font-weight: 600;
             display: block;
             line-height: 15px;
@@ -773,7 +703,7 @@ header {
 
     .blog-entry p {
         padding: 0px 15px;
-        font-size: 12px;
+        /*font-size: 12px;*/
         color: #666;
         line-height: 20px;
         margin-bottom: 15px;
@@ -833,7 +763,7 @@ header {
 
     .comment .comment-meta p {
         display: inline-block;
-        font-size: 11px;
+        /*font-size: 11px;*/
         color: #ccc;
         font-style: italic;
         margin-left: 15px;
@@ -850,7 +780,7 @@ header {
 
     .comment .comment-body p {
         margin-top: 8px;
-        font-size: 11px;
+        /*font-size: 11px;*/
         color: #909090;
         line-height: 16px;
     }
@@ -861,7 +791,7 @@ header {
     padding: 6px;
     background-color: #8c8c8c;
     overflow: hidden;
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-weight: 300;
     line-height: 20px;
     margin: 10px 0px 0px -20px;
@@ -902,7 +832,7 @@ header {
         }
 
         .popular-posts-widget li h2 {
-            font-size: 13px;
+            /*font-size: 13px;*/
             margin-bottom: 4px;
             line-height: 20px;
         }
@@ -912,7 +842,7 @@ header {
             }
 
         .popular-posts-widget li span {
-            font-size: 11px;
+            /*font-size: 11px;*/
             color: #999;
         }
 
@@ -941,7 +871,7 @@ header {
 
 .loading {
     padding: 10px 20px;
-    font-size: 14px;
+    /*font-size: 14px;*/
     background-color: #ededed;
     color: #333;
     display: none;
@@ -955,13 +885,13 @@ header {
     float: right;
     color: #FFF;
     font-weight: 300;
-    font-size: 14px;
+    /*font-size: 14px;*/
     color: #ddd;
 }
 
     .blog-single-close i {
         font-family: 'icomoon';
-        font-size: 18px;
+        /*font-size: 18px;*/
         vertical-align: top;
     }
 
@@ -1003,7 +933,7 @@ header {
 }
 
     .contact-info ul li {
-        font-size: 12px;
+        /*font-size: 12px;*/
         line-height: 20px;
         color: #666;
         overflow: hidden;
@@ -1030,7 +960,7 @@ form .input, form textarea {
     -moz-border-radius: 2px;
     border-radius: 2px;
     color: #666;
-    font-size: 12px;
+    /*font-size: 12px;*/
     height: 30px;
     outline: none;
     padding: 6px 10px;
@@ -1053,7 +983,7 @@ form p {
         display: block;
         color: #999;
         margin-bottom: 8px;
-        font-size: 13px;
+        /*font-size: 13px;*/
     }
 
 .button {
@@ -1065,7 +995,7 @@ form p {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     cursor: pointer;
-    font-size: 13px;
+    /*font-size: 13px;*/
 }
 
     .button:hover {
@@ -1102,7 +1032,7 @@ footer {
     footer .copyright {
         float: left;
         color: #333;
-        padding-left: 6px;
+        padding:1em;
     }
 
 /*-------------------------------------------------------*/
@@ -1161,11 +1091,11 @@ div.footer {
     }
 
     #personalsecondemail {
-        font-size: 12px;
+        /*font-size: 12px;*/
     }
 
     #personalname {
-        font-size: 13px;
+        /*font-size: 13px;*/
     }
     /*-------------------------------------------------------*/
     /* Menu */
@@ -1188,11 +1118,11 @@ div.footer {
 
         .about h1 {
             line-height: 38px;
-            font-size: 22px;
+            /*font-size: 22px;*/
         }
 
         .about h3 {
-            font-size: 14px;
+            /*font-size: 14px;*/
             line-height: 14px;
         }
     /* Personal info */
@@ -1267,7 +1197,7 @@ div.footer {
     /*-------------------------------------------------------*/
     /* Logo */
     #logo h2 {
-        font-size: 25px;
+        /*font-size: 25px;*/
         font-weight: 900;
         color: #444;
         line-height: 30px;
@@ -1297,11 +1227,11 @@ div.footer {
 
         .about h1 {
             line-height: 38px;
-            font-size: 22px;
+            /*font-size: 22px;*/
         }
 
         .about h3 {
-            font-size: 14px;
+            /*font-size: 14px;*/
             line-height: 14px;
         }
     /* Personal info */
@@ -1400,14 +1330,14 @@ div.footer {
     }
 
     .extra-text {
-        font-size: 16px;
+        /*font-size: 16px;*/
     }
     /*-------------------------------------------------------*/
     /* Top Section */
     /*-------------------------------------------------------*/
     /* Logo */
     #logo h2 {
-        font-size: 23px;
+        /*font-size: 23px;*/
         font-weight: 900;
         color: #444;
         line-height: 30px;
@@ -1452,13 +1382,12 @@ div.footer {
 
         .about h1 {
             line-height: 38px;
-            font-size: 30px;
+            /*font-size: 30px;*/
             text-align: center;
-            font-size: 31px;
         }
 
         .about h3 {
-            font-size: 14px;
+            /*font-size: 14px;*/
             line-height: 14px;
             text-align: center;
         }
@@ -1479,7 +1408,7 @@ div.footer {
     }
 
         .personal-info li {
-            font-size: 13px;
+            /*font-size: 13px;*/
         }
 
             .personal-info li span {
@@ -1494,7 +1423,7 @@ div.footer {
 
         .tabs li > a {
             width: 75px;
-            font-size: 14px;
+            /*font-size: 14px;*/
         }
 
         .tabs li.active {

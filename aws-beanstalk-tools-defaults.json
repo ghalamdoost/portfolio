@@ -3,7 +3,7 @@
   "profile": "Shahab",
   "region": "us-east-1",
   "application": "Portfolio",
-  "environment": "Portfolio-env",
+  "environment": "Portfolio",
   "cname": "portfolio-dev",
   "solution-stack": "64bit Windows Server 2019 v2.6.8 running IIS 10.0",
   "environment-type": "SingleInstance",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\ghalamdoost\\Portfolio\\Portfolio.csproj": {}
+    "D:\\Work\\ghalamdoost\\portfolio\\Portfolio.csproj": {}
   },
   "projects": {
-    "D:\\Work\\ghalamdoost\\Portfolio\\Portfolio.csproj": {
+    "D:\\Work\\ghalamdoost\\portfolio\\Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\ghalamdoost\\Portfolio\\Portfolio.csproj",
+        "projectUniqueName": "D:\\Work\\ghalamdoost\\portfolio\\Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "D:\\Work\\ghalamdoost\\Portfolio\\Portfolio.csproj",
+        "projectPath": "D:\\Work\\ghalamdoost\\portfolio\\Portfolio.csproj",
         "packagesPath": "C:\\Users\\ghala\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\ghalamdoost\\Portfolio\\obj\\",
+        "outputPath": "D:\\Work\\ghalamdoost\\portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghala\\AppData\\Roaming\\NuGet\\NuGet.Config",
