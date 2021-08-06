@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Views\\Home",
+    "\\Views\\Partial",
+    "\\Views\\Shared",
+    "\\wwwroot",
+    "\\wwwroot\\css",
+    "\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Portfolio.sln",
+  "SelectedNode": "\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
