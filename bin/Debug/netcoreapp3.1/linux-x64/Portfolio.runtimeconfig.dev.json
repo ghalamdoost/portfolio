@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ghala\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ghala\\.nuget\\packages"
+    ]
+  }
+}

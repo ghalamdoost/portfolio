@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\ghalamdoost\\portfolio\\Portfolio.csproj": {}
+    "D:\\Work\\Portfolio\\Portfolio.csproj": {}
   },
   "projects": {
-    "D:\\Work\\ghalamdoost\\portfolio\\Portfolio.csproj": {
+    "D:\\Work\\Portfolio\\Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\ghalamdoost\\portfolio\\Portfolio.csproj",
+        "projectUniqueName": "D:\\Work\\Portfolio\\Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "D:\\Work\\ghalamdoost\\portfolio\\Portfolio.csproj",
+        "projectPath": "D:\\Work\\Portfolio\\Portfolio.csproj",
         "packagesPath": "C:\\Users\\ghala\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\ghalamdoost\\portfolio\\obj\\",
+        "outputPath": "D:\\Work\\Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghala\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -61,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
