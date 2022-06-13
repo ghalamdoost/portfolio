@@ -315,7 +315,7 @@ i.fas.fab.fa-donate {
 
         .personal-info li span {
             float: right;
-            width: 220px;
+            width: 235px;
             padding-top: 4px;
             font-weight: 300;
             color: /*profileTextColor*/ #a87f09;
@@ -939,7 +939,7 @@ i.fas.fab.fa-donate {
 }
 
 .contact-info {
-    width: 250px;
+    width: 320px;
 }
 
 .contact-form {
@@ -1344,7 +1344,9 @@ div.footer {
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-
+    span.word-wrap {
+        font-size: smaller;
+    }
     #container {
         width: 300px;
         margin-top: 10px;
@@ -1552,7 +1554,7 @@ div.footer {
     }
 
     .contact-info, .contact-form {
-        padding: 0 10px;
+        padding: 0px 10px 20px 10px;
     }
 }
 
