@@ -7,7 +7,7 @@ for details on configuring this project to bundle and minify static web assets. 
 /*-------------------------------------------------------*/
 html {
     overflow-y: scroll;
-    background-color:black;
+    background-color: black;
 }
 
 body {
@@ -36,11 +36,11 @@ body {
     width: 860px;
     margin-bottom: 20px;
     margin-top: 30px;
-    background-color:black;
+    background-color: black;
 }
 
 #content {
-    margin-top:1em;
+    margin-top: 1em;
     background-color: #FFF;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
@@ -286,6 +286,22 @@ i.fas.fab.fa-donate {
         font-weight: 400;
         line-height: 20px;
     }
+
+.blur-item {
+    /*display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;*/
+    filter: blur(5px); /* Initially blurred */
+    transition: filter 0.3s ease-in-out;
+}
+
+    .blur-item.active {
+        filter: blur(0px); /* Remove blur on click */
+    }
 /* Personal info */
 .personal-info {
     float: left;
@@ -319,6 +335,7 @@ i.fas.fab.fa-donate {
             padding-top: 4px;
             font-weight: 300;
             color: /*profileTextColor*/ #a87f09;
+            font-size: smaller;
         }
 
 
@@ -404,7 +421,7 @@ i.fas.fab.fa-donate {
 #resume {
     padding: 40px 20px;
     overflow: hidden;
-    background-color:#111;
+    background-color: #111;
 }
 
 .skills-section, .timeline-section {
@@ -930,7 +947,7 @@ i.fas.fab.fa-donate {
 #contact {
     padding: 30px 0;
     overflow: hidden;
-    background-color:#111;
+    background-color: #111;
 }
 
 .contact-info, .contact-form {
@@ -957,6 +974,7 @@ i.fas.fab.fa-donate {
         line-height: 20px;
         color: #fdc75073;
         overflow: hidden;
+        font-size:smaller;
     }
 
 /* Google map */
@@ -1099,6 +1117,11 @@ div.footer {
         -moz-transition-property: -moz-transform, opacity;
         transition-property: transform, opacity;
     }
+
+
+
+
+
 
 
 /*-------------------------------------------------------*/
@@ -1347,6 +1370,7 @@ div.footer {
     span.word-wrap {
         font-size: smaller;
     }
+
     #container {
         width: 300px;
         margin-top: 10px;
