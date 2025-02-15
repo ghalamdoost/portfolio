@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Change this if your branch is different
+  workflow_dispatch:   # This enables manual trigger
 
 jobs:
   deploy:
