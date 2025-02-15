@@ -1,3 +1,20 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const listItems = document.querySelectorAll(".blur-item");
+
+    listItems.forEach(item => {
+        item.addEventListener("click", function (event) {
+            event.stopPropagation(); // Prevent event from bubbling up
+            this.classList.add("active"); // Remove blur
+        });
+    });
+
+    document.addEventListener("click", function () {
+        listItems.forEach(item => {
+            item.classList.remove("active"); // Reapply blur when clicking outside
+        });
+    });
+});
+
 jQuery(document).ready(function () {
 
     /* ---------------------------------------------------------------------- */
